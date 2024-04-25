@@ -10,12 +10,11 @@ public class APCalendar
   /** Returns the number of leap years between year1 and year2, inclusive.
    * Precondition: 0 <= year1 <= year2
    */
-  public static int numberOfLeapYears(int year1, int year2)
-  { 
+  public static int numberOfLeapYears(int year1, int year2){ 
     /* to be implemented in part (a) */
     int count = 0;
 
-    for(int i = year1; i <= year2' i++){
+    for(int i = year1; i <= year2; i++){
       if(isLeapYear(i) == true){
         count++;
       }
